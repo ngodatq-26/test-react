@@ -40,7 +40,12 @@ The source code is organized in a structure :
  <li><strong>utils</strong> : contains common function</li>
 </ul> 
 
+## UI
+
+### UI test exam below
+![Screenshot (415)](https://user-images.githubusercontent.com/66765392/217414198-838ebf5d-f17d-455d-ae2a-024c4301ecbc.png)
 
 
+![Screenshot (416)](https://user-images.githubusercontent.com/66765392/217414256-41460f92-ef6a-49f3-ae78-57daa40c7676.png)
 
 
