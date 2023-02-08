@@ -21,7 +21,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-## Code explaination
+## Code structure
 
 The source code is organized in a structure :
 <ul>
@@ -47,5 +47,16 @@ The source code is organized in a structure :
 
 
 ![Screenshot (416)](https://user-images.githubusercontent.com/66765392/217414256-41460f92-ef6a-49f3-ae78-57daa40c7676.png)
+
+## Project
+
+<ul> Project reactjs have table which contains 100 users, uses react-router-dom, redux-thunk, typescript,.. </ul>
+<ul> By using redux-thunk and redux persist, project saves state in local storage </ul>
+<ul> When you reload page, page does not re render component and not call api again </ul>
+<ul> Redux state includes : current page, page size, info user list and sort state </ul>
+<ul> Username and full name sort when you click them, include ASC and DESC </ul>
+
+## Thank you for reading
+
 
 
