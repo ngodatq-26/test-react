@@ -25,7 +25,7 @@ You will also see any lint errors in the console.
 
 The source code is organized in a structure :
 <ul>
- <li>config</li>
+ <li>config</li> define all endpoints and routes of project
  <li>images</li>
  <li>modules</li>
  <li>redux</li>
