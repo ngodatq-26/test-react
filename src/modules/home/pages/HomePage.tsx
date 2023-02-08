@@ -33,7 +33,7 @@ const HomePage = () => {
   }
 
   React.useEffect(() => {
-    if(stateData.user.page == pageCheck && stateData.user.results == resultCheck) {
+    if(stateData.user.page == pageCheck && stateData.user.results == resultCheck && stateData.user.user.length != 0) {
       return;
     } else {
       serviceHttp(API_PATHS.getUser, 'GET', {
@@ -58,6 +58,8 @@ const HomePage = () => {
       dispatch(setResults(resultCheck))
     }
   }, [checkHttp]);
+
+  console.log(stateData)
 
   return (
     <div className='container'>

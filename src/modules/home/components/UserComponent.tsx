@@ -13,7 +13,7 @@ const UserComponent = (props : props) => {
   const isMobile = viewPort.width <= 480;
   const isDesktop = viewPort.width >= 1025;
 
-  const [img, setImg] = React.useState<string>(info.thumbnail.large)
+  const [img, setImg] = React.useState<string>('')
   React.useEffect(() => {
     if(isMobile) {
       setImg(info.thumbnail.thumbnail);
